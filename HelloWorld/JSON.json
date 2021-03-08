@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "project id 1": {
+      "projectid": {
         "steps": [
           {
             "quality": {

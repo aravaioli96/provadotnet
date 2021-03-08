@@ -9,7 +9,9 @@
                 "from": "dd/mm/yyyy",
                 "to": "dd/mm/yyyy"
               }
-            },
+            }
+          },
+          {
             "security": {
               "grace-period": {
                 "from": "dd/mm/yyyy",

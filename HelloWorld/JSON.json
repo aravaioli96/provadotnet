@@ -1,36 +1,66 @@
 {
   "projects": [
     {
-      "projectid": {
-        "steps": [
-          {
-            "quality": {
-              "graceperiod": {
-                "from": "dd/mm/yyyy",
-                "to": "dd/mm/yyyy"
-              }
-            }
-          },
-          {
-            "security": {
-              "graceperiod": {
-                "from": "dd/mm/yyyy",
-                "to": "dd/mm/yyyy",
-                "thresholds": {
-                  "high": 10,
-                  "medium": 100,
-                  "low": 1000
-                }
-              },
-              "target-thresholds": {
-                "high": 1,
-                "medium": 10,
-                "low": 1000
-              }
+      "name": "FascicoliAssegni",
+      "steps": [
+        {
+          "quality": {
+            "graceperiod": {
+              "from": "00/00/0000",
+              "to": "dd/mm/yyyy"
             }
           }
-        ]
-      }
+        },
+        {
+          "security": {
+            "graceperiod": {
+              "from": "dd/mm/yyyy",
+              "to": "dd/mm/yyyy",
+              "thresholds": {
+                "high": 10,
+                "medium": 100,
+                "low": 1000
+              }
+            },
+            "target-thresholds": {
+              "high": 1,
+              "medium": 10,
+              "low": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pinco",
+      "steps": [
+        {
+          "quality": {
+            "graceperiod": {
+              "from": "01/01/0001",
+              "to": "dd/mm/yyyy"
+            }
+          }
+        },
+        {
+          "security": {
+            "graceperiod": {
+              "from": "dd/mm/yyyy",
+              "to": "dd/mm/yyyy",
+              "thresholds": {
+                "high": 10,
+                "medium": 100,
+                "low": 1000
+              }
+            },
+            "target-thresholds": {
+              "high": 1,
+              "medium": 10,
+              "low": 1000
+            }
+          }
+        }
+      ]
     }
   ]
 }

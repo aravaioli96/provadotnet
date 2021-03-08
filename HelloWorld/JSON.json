@@ -5,10 +5,7 @@
         "steps": [
           {
             "quality": {
-              "graceperiod": {
-                "from": "dd/mm/yyyy",
-                "to": "dd/mm/yyyy"
-              }
+              "graceperiod": "ok"
             }
           },
           {
